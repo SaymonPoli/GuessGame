@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <title>Number guessing game</title>
         <link href="/Adivinhação js/estilo.css"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <h1>number guessing game</h1>
@@ -13,15 +14,15 @@
         We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.
         </p>
         <div class="form">
-            <label for="guessField">Enter a guess: </label>
-            <input type="number" min="1" max="100" required id="guessField" class="glassField">
-            <input type="submit" value="submit guess" class="guessSubmit">
+        <label for="guessField">Enter a guess: </label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
         </div>
 
         <div class="resultParas">
             <p class="guesses"></p>
             <p class="lastResult"></p>
-            <p calss="lowOrHigh"></p>
+            <p class="lowOrHigh"></p>
         </div>
 
         <script src="main.js" defer></script>
