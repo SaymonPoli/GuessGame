@@ -1,2 +1,2 @@
 # GuessGame
-Guess game to train JavaScript
+Guess game to pratice JavaScript
